@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pk Fitness</title>
+</head>
+<!-- <link rel="stylesheet" href="css/styles.css"> -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap" rel="stylesheet">
+<style>
+    /* css reset */
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-image: url('picture/workout.jpg');
+        /* height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; */
+        color: white;
+        font-family: 'Crimson Text', serif;
+    }
+
+    .left {
+        line-height: 20px;
+        font-size: 13px;
+        display: inline-block;
+        position: absolute;
+        left: 50px;
+        top: 20px;
+        width: 7%;
+        height: 48px;
+
+    }
+
+    .left div {
+
+        font-size: 12px;
+    }
+
+    .mid {
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+
+
+    }
+
+    .right {
+        position: absolute;
+        right: 30px;
+        top: 20px;
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: white;
+        padding: 3px 15px;
+    }
+
+    .navbar li a:hover {
+        color: grey;
+
+    }
+
+    .left img {
+        width: 56px;
+        filter: invert(100%);
+
+
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        border: 1px solid white;
+        border-radius: 3px;
+        font-family: 'Crimson Text', serif;
+        width: 85px;
+    }
+
+    .btn:hover {
+        background-color: rgb(63, 61, 61);
+        cursor: pointer;
+    }
+
+    .container {
+        display: inline-block;
+        width: 340px;
+        margin: 140px 156px;
+        padding: 30px;
+        border: 2px solid grey;
+        border-radius: 10px;
+
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container .form_group input{
+        display: block;
+        border: 1px solid rgb(226, 218, 218);
+        border-radius: 2px;
+        width: 293px;
+        margin: 8px auto;
+        padding: 3px
+        
+    }
+    .container .btn{
+        margin: 12px 0px 0px 19px;
+    }
+    .header{ margin: 30px;}
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="picture/logo.png" alt="">
+            <div>PK FITNESS</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best Gym In Muzaffarpur</h1>
+        <form action="noaction.php">
+            <div class="form_group">
+                <input type="text" name="" placeholder="Name">
+                <input type="text" name="" placeholder="Email">
+                <input type="text" name="" placeholder="Phone">
+                <input type="text" name="" placeholder="Zip Code">
+                
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
